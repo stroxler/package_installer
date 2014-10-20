@@ -1,20 +1,6 @@
-#!/usr/bin/env bash
+On ubuntu, most of the core packages I need - both apt and pip stuff -
+are installable via the ape.py script in the ape repository.
 
-dir=`dirname $0`
-
-PROFILE=${1:-Default}
-
-# set palette
-gconftool-2 -s -t string /apps/gnome-terminal/profiles/$PROFILE/palette `cat $dir/colors/palette`
-
-# set highlighted color to be different from foreground-color
-gconftool-2 -s -t bool /apps/gnome-terminal/profiles/$PROFILE/bold_color_same_as_fg false
-
-# set foreground to base00 and background to base3 and highlight color to
-# base01
-gconftool-2 -s -t string /apps/gnome-terminal/profiles/$PROFILE/background_color `cat $dir/colors/base3`
-gconftool-2 -s -t string /apps/gnome-terminal/profiles/$PROFILE/foreground_color `cat $dir/colors/base00`
-gconftool-2 -s -t string /apps/gnome-terminal/profiles/$PROFILE/bold_color `cat $dir/colors/base01`
-
-# make sure the profile is set to not use theme colors
-gconftool-2 -s -t bool /apps/gnome-terminal/profiles/$PROFILE/use_theme_colors false
+At some point, I should probably either convert that to a bash script and
+put it here, or find a way to translate this repository into python
+(which would then probably allow me to automatically detect mac vs linux).
