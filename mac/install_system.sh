@@ -20,6 +20,16 @@ brew cask install Spectacle
 brew cask install xquartz
 brew cask install catchmouse
 brew cask install flux
+brew cask install totalterminal
+brew cask install iterm2
+
+" ---------------- "
+" GET COLORSCHEMES "
+" ---------------- "
+cd Desktop
+git clone git@github.com:mbadolato/iTerm2-Color-Schemes.git
+git clone https://github.com/tomislav/osx-terminal.app-colors-solarized
+cd ..
 
 
 " ---------------- "
@@ -37,6 +47,8 @@ brew cask install flux
 "   This will make the shell quit like a typical terminal after exit. "
 " * Also while you are there, go to the 'Advanced' sub-menu item, and "
 "   uncheck 'audible bell'. "
+" * Also while you are there, if you want to possibly modify the "
+"   totalterminal preferences. "
 " * Go into the system settings, and do this to the dock: "
 "    (a) make it right-justified "
 "    (b) make it small .. actually this isn't so important "
