@@ -23,6 +23,7 @@ brew cask install flux
 brew cask install totalterminal
 brew cask install iterm2
 brew cask install cd-to
+brew cask install sourceTree
 " ---------------- "
 " GET COLORSCHEMES "
 " ---------------- "
