@@ -13,6 +13,7 @@ brew install openssl
 brew install caskroom/cask/brew-cask
 "pip stuff is elsewhere, but this is needed for some brew stuff"
 pip install pyqt
+brew cask install quicksilver
 brew cask install macvim
 brew cask install aquamacs
 brew cask install firefox
