@@ -28,9 +28,10 @@ brew cask install sourceTree
 " ---------------- "
 " GET COLORSCHEMES "
 " ---------------- "
+" in vim, I already get this elsewhere. But for terminal.app and iterm2 "
+" I will want this. "
 cd Desktop
-git clone git@github.com:mbadolato/iTerm2-Color-Schemes.git
-git clone https://github.com/tomislav/osx-terminal.app-colors-solarized
+git clone git@github.com:altercation/solarized.git
 cd ..
 
 

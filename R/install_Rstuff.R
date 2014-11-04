@@ -6,6 +6,7 @@ install.packages('ggplot2')
 install.packages('devtools')
 install.packages('testthat')
 install.packages('lme4')
+install.packages('openxlsx'))
 
 # Note: I think you might need extra flags here in order to get homebrew
 # SQL header files to be recognized *if* you didn't use homebrew
