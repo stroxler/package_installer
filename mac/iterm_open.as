@@ -14,5 +14,5 @@ tell application "iTerm"
         launch session "Default"
     end tell
     activate
-    end tell
+end tell
                                                         
