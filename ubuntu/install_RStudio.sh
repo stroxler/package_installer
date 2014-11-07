@@ -7,4 +7,4 @@
 sudo apt-get install gdebi-core
 sudo apt-get install libapparmor1
 wget http://download1.rstudio.org/rstudio-0.98.1091-amd64.deb
-sudo gdebi rstudio-http://download1.rstudio.org/rstudio-0.98.1091-amd64.deb
+sudo gdebi rstudio-0.98.1091-amd64.deb
