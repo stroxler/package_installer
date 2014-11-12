@@ -14,6 +14,9 @@ pip install MySQL-python
 pip install bottleneck
 pip install la
 pip install cython
+pip install grin
+pip install sqlalchemy
+pip install pandas
 " This will probably fail if you run this as yourself: nose seems to need "
 " root permissions. "
 pip install nose
