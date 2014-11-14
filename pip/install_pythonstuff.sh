@@ -17,6 +17,8 @@ pip install cython
 pip install grin
 pip install sqlalchemy
 pip install numexpr
+pip install statsmodels
+pip install ggplot
 pip install tables  # pytables
 pip install pandas
 " This will probably fail if you run this as yourself: nose seems to need "
