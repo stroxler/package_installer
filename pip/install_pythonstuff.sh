@@ -1,8 +1,12 @@
 pip install virtualenv
 pip install virtualenvwrapper
+pip install sphinx
 pip install pyqt # this won't work, actually. pyqt isn't easy_installable
                  # because it has a configure.py, not a setup.py.
+# everything from here to ipython is for ipython notebooks.
 pip install pyzmq
+pip install jinja2
+pip install tornado
 pip install ipython
 pip install pudb
 pip install line_profiler
