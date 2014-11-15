@@ -1,6 +1,7 @@
 pip install virtualenv
 pip install virtualenvwrapper
-pip install pyqt
+pip install pyqt # this won't work, actually. pyqt isn't easy_installable
+                 # because it has a configure.py, not a setup.py.
 pip install pyzmq
 pip install ipython
 pip install pudb
