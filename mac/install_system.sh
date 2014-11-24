@@ -1,6 +1,8 @@
 " -------------------"
 " BASIC SYSTEM TOOLS "
 " -------------------"
+" NOTE: if anything ever fails to install (especially with a 404 error) "
+"       it is a good idea to try running brew update."
 brew install gcc
 brew install wget
 brew install python
