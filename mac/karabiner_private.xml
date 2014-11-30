@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<root>
+    <item>
+        <name>Map Text to Cmd</name>
+        <identifier>private.text_to_cmd</identifier>
+        <autogen>__KeyToKey__ KeyCode::PC_APPLICATION, KeyCode::COMMAND_R</autogen>
+    </item>
+</root>
