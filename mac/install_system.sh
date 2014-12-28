@@ -3,8 +3,10 @@
 # -------------------
 # NOTE: if anything ever fails to install (especially with a 404 error) 
 #       it is a good idea to try running brew update.
-brew install gcc
 brew install wget
+brew install gcc
+brew install cmake
+brew install doxygen
 brew install python
 brew install git
 brew install git-cola
@@ -13,11 +15,18 @@ brew install qt
 brew install zmq
 brew install openssl
 brew install caskroom/cask/brew-cask
-#pip stuff is elsewhere, but this is needed for some brew stuff
+# most of my pip stuff is elsewhere, but this is needed for some brew stuff
 pip install pyqt
+# language dependencies
 brew cask install java
+# brew install ghc cabal-install # ghc = compiler (and interpreter), cabal ~ pip
+brew cask install haskell-platform # the brew install failed
+brew install leiningen # the command is lien - all-in-one clojure tool
+brew install scala sbt maven giter8 # recommended for scala dev
+# applications
+brew cask install mactex
 brew cask install quicksilver
-# brew cask install karabiner
+brew cask install karabiner
 brew cask install keyboard maestro
 brew cask install macvim
 brew cask install aquamacs
@@ -39,6 +48,14 @@ cd Desktop
 git clone git@github.com:altercation/solarized.git
 cd ..
 
+# ----------------------------
+# SOME NOTES ON WHAT'S MISSING
+# ----------------------------
+# I have no lapack / openblas / atlas stuff here, because mac ships with
+#   an already-optimized lapack.
+# Mac ships with libapr and libaprutil. You can get copies from homebrew,
+#   but it doesn't wind up doing anything b/c the libraries and headers already exist in
+#   /usr/lib and /usr/include
 
 # ---------------- 
 # GUI INSTRUCTIONS 
